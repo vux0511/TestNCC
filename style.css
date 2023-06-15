@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    width: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background: #191718;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    color: #aaaaaa;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-size: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #5c5c5c;
+}
+li:hover {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #5c5c5c;
+}
+
+li.home {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main-content {
+    position: absolute;
+    width: calc(100% - 150px);
+    height: 935px;
+    margin-left: 150px;
+    background-color: #ffffff;
+}
+
+.logo-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about-content {
+    width: calc(100% - 500px);
+    margin: 0px auto;
+    background-color: #efefef;
+    padding: 38px 100px;
+}
+
+.title-about-content {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.desc-about-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.bottom-content {
+    padding-top: 50px;
+    width: calc(100% - 350px);
+    margin: 0px auto;
+    display: flex;
+}
+
+.wrap-content {
+    /* width: 400px; */
+    width: 100%;
+}
+
+.bottom-content img {
+    width: 100px;
+}
+
+.bottom-content .row {
+    display: flex;
+}
+
+.col-7,
+.col-3 {
+    padding: 10px 10px 0px 10px;
+}
+
+.title-bottom-content {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.row p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #dedede;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 129px;
+    width: calc(100% - 150px);
+}
